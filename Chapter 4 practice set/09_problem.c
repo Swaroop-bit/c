@@ -7,7 +7,7 @@ int main(){
     do{
         fact *=i;
         i--;
-    } while (i>=fact);
+    } while (i>=1);
     
     printf("The value of factorial is %d",fact);
 
